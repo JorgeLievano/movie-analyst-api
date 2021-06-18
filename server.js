@@ -35,6 +35,7 @@ app.get('/movies', function(req, res){
     {title : 'Avengers: Age of Ultron', release : '2015', score: 7, reviewer: 'Mindy Lee', publication: 'Movies n\' Games'},
     {title : 'Ant-Man', release: '2015', score: 8, reviewer: 'Martin Thomas', publication : 'TheOne'},
     {title : 'Guardians of the Galaxy', release : '2014', score: 10, reviewer: 'Anthony Miller', publication : 'ComicBookHero.com'},
+    {title : 'Barrenderos Espaciales', release : '2021', score: 10, reviewer: 'Jorge Lievano', publication : 'Movie Analyst'},
   ]
 
   res.json(movies);
